@@ -1,0 +1,28 @@
+{
+  "name": "iohao-sdk-ts-example-html",
+  "version": "1.0.0",
+  "private": true,
+
+  "author": "iohao_渔民小镇",
+  "license": "AGPL3.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js",
+    "start": "webpack server"
+  },
+  "devDependencies": {
+    "@bufbuild/buf": "^1.46.0",
+    "@bufbuild/protoc-gen-es": "^2.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "iohao-sdk": "^21.0.0"
+  }
+}
