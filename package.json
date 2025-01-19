@@ -23,6 +23,6 @@
   },
   "dependencies": {
     "lodash": "^4.17.21",
-    "iohao-sdk": "^21.0.0"
+    "iohao-sdk": "^21.0.1"
   }
 }
